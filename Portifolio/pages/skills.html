@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Skills - Dennis Mwangi's technical expertise including HTML, CSS, JavaScript, React, and more">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <title>Skills - Dennis Mwangi Portfolio</title>
+  
+  <!-- Main CSS (includes all modules) -->
+  <link rel="stylesheet" href="../assets/styles/main.css">
+</head>
+
+<body>
+  <!-- HEADER / NAVIGATION -->
+  <header role="banner">
+    <div class="left-header">
+      <p class="logo">Mwangi <span>Dev</span></p>
+    </div>
+    <div class="right-header">
+      <nav role="navigation" aria-label="Main Navigation">
+        <input type="checkbox" id="menu-toggle" aria-label="Toggle navigation menu">
+        <label for="menu-toggle" class="hamburger" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul class="nav-list">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main role="main">
+    <section aria-labelledby="skills-title">
+      <h3 id="skills-title">Skills</h3>
+      <p>
+        Here are some of the technologies and skills I use to create modern, responsive, and functional websites:
+      </p>
+      
+      <div class="grid-3-col">
+        <article class="card skill-card">
+          <h4>HTML</h4>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" 
+               alt="HTML5 logo" width="100" height="100" loading="lazy">
+          <p>Hyper Text Markup Language - Used for structuring web pages and content.</p>
+        </article>
+        
+        <article class="card skill-card">
+          <h4>CSS3</h4>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" 
+               alt="CSS3 logo" width="100" height="100" loading="lazy">
+          <p>Cascading Style Sheets - Used to style and visually enhance websites.</p>
+        </article>
+        
+        <article class="card skill-card">
+          <h4>JavaScript</h4>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" 
+               alt="JavaScript logo" width="100" height="100" loading="lazy">
+          <p>JavaScript - Adds interactivity and dynamic functionality to websites.</p>
+        </article>
+        
+        <article class="card skill-card">
+          <h4>React</h4>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" 
+               alt="React logo" width="100" height="100" loading="lazy">
+          <p>React.js - A JavaScript library for building fast, interactive user interfaces.</p>
+        </article>
+        
+        <article class="card skill-card">
+          <h4>Git</h4>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" 
+               alt="Git logo" width="100" height="100" loading="lazy">
+          <p>Git - Version control system to manage project changes efficiently and collaborate with others.</p>
+        </article>
+        
+        <article class="card skill-card">
+          <h4>Responsive Design</h4>
+          <img src="https://cdn-icons-png.flaticon.com/512/2917/2917242.png" 
+               alt="Responsive Design icon" width="100" height="100" loading="lazy">
+          <p>Ensuring websites look great and work well on all devices, from phones to desktops.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer role="contentinfo">
+    &copy; 2025 Mwangi <span>Dev</span> - Portfolio
+  </footer>
+
+  <!-- JAVASCRIPT MODULES -->
+  <script src="../assets/js/modules/navigation.js"></script>
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>
