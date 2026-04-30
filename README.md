@@ -8,7 +8,7 @@ This project showcases my skills, projects, and contact information in a clean a
 
 ##  Live Demo
 
-*(Add your GitHub Pages link here if available)*
+* [View Website](https://denz5infinity.github.io/port-folio/)
 
 ---
 
@@ -74,7 +74,7 @@ Portfolio/
 
 ## 📸 Preview
 
-*(Add screenshots here later)*
+*![Preview](./assets/images/preview.png)*
 
 ---
 
