@@ -1,18 +1,18 @@
 [README.md](https://github.com/user-attachments/files/27240603/README.md)
-# 🌐 Personal Portfolio Website
+#  Personal Portfolio Website
 
 A modern, responsive portfolio website built using HTML, CSS, and JavaScript.
 This project showcases my skills, projects, and contact information in a clean and professional layout.
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 
 *(Add your GitHub Pages link here if available)*
 
 ---
 
-## 📌 Features
+##  Features
 
 * Responsive design (mobile, tablet, desktop)
 * Clean and modern UI
@@ -22,7 +22,7 @@ This project showcases my skills, projects, and contact information in a clean a
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * HTML5 (Semantic structure)
 * CSS3 (Flexbox, Grid, Variables)
@@ -30,7 +30,7 @@ This project showcases my skills, projects, and contact information in a clean a
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Portfolio/
@@ -43,7 +43,7 @@ Portfolio/
 ├── assets/
 │   ├── assets/               # All images go here
 │   ├── styles/
-│   │   ├── main.css          # ⭐ MAIN IMPORT FILE - link only this in HTML
+│   │   ├── main.css          # MAIN IMPORT FILE - link only this in HTML
 │   │   ├── variables.css     # Design tokens (colors, spacing, fonts, etc.)
 │   │   ├── reset.css         # Global base styles
 │   │   ├── layout/
@@ -58,7 +58,6 @@ Portfolio/
 │       └── modules/
 │           ├── navigation.js # Hamburger menu handler
 │           └── projects.js   # Project interactions
-├── assets/                   # Old images folder (will move to assets/images)
 └── README.md                # This file
 ```
 
