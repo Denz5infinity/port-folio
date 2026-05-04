@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Dennis Mwangi - Frontend Developer creating responsive, accessible websites">
+  <meta name="keywords" content="frontend developer, web design, HTML, CSS, JavaScript, React">
+  <meta name="author" content="Dennis Mwangi">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <title>Dennis Mwangi - Frontend Developer Portfolio</title>
+  
+  <!-- Main CSS (includes all modules) -->
+  <link rel="stylesheet" href="assets/styles/main.css">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+  
+  <!-- Devicons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+
+<body>
+  <!-- HEADER / NAVIGATION -->
+  <header role="banner">
+    <div class="left-header">
+      <p class="logo">Mwangi <span>Dev</span></p>
+    </div>
+    <div class="right-header">
+      <nav role="navigation" aria-label="Main Navigation">
+        <input type="checkbox" id="menu-toggle" aria-label="Toggle navigation menu">
+        <label for="menu-toggle" class="hamburger" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pages/about.html">About</a></li>
+          <li><a href="pages/skills.html">Skills</a></li>
+          <li><a href="pages/projects.html">Projects</a></li>
+          <li><a href="pages/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main role="main">
+    <!-- HERO SECTION -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <h1 id="hero-title">Hey, I'm <span>Dennis</span></h1>
+        <h2>Frontend Developer & Creative Coder</h2>
+        <p>I craft beautiful, responsive websites that are fast, accessible, and a joy to use. Let's build something amazing together.</p>
+        <div class="hero-content-cta">
+          <a href="pages/projects.html" class="btn">View My Work</a>
+          <a href="pages/contact.html" class="btn btn--secondary">Get In Touch</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="assets/images/profile-picture2.webp" alt="Profile photo of Dennis Mwangi">
+      </div>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <section aria-labelledby="about-title">
+      <h3 id="about-title">About Me</h3>
+      <article class="about-card">
+        <img src="assets/images/profile-picture2.webp" alt="Dennis Mwangi - About section photo" loading="lazy">
+        <div>
+          <p>
+            Passionate about creating clean, modern websites with a focus on user experience and accessibility. 
+            I combine design thinking with technical expertise to build digital solutions that matter.
+          </p>
+          <p>
+            When I'm not coding, you'll find me exploring UI/UX trends, learning new technologies, 
+            or sharing knowledge with the developer community.
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section aria-labelledby="skills-title">
+      <h3 id="skills-title">Core Skills</h3>
+      <p>Technologies and tools I use to create modern, responsive websites.</p>
+      <div class="grid-2-col">
+        <article class="card skill-card">
+          <h4>HTML5</h4>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" 
+               alt="HTML5 logo" width="100" height="100" loading="lazy">
+          <p>Semantic markup & structured content</p>
+        </article>
+        <article class="card skill-card">
+          <h4>CSS3</h4>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" 
+               alt="CSS3 logo" width="100" height="100" loading="lazy">
+          <p>Modern styling & responsive design</p>
+        </article>
+      </div>
+      <div style="text-align: center; margin-top: var(--spacing-2xl);">
+        <a href="pages/skills.html" class="btn">Explore All Skills →</a>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section aria-labelledby="projects-title">
+      <h3 id="projects-title">Featured Work</h3>
+      <p>A selection of projects that showcase my skills in design, development, and problem-solving.</p>
+      <div class="grid-2-col">
+        <article class="card project-card">
+          <h5>Portfolio Website</h5>
+          <img src="assets/images/project-picture1.webp" alt="Portfolio website project screenshot" loading="lazy">
+          <p>A fully responsive portfolio built with HTML, CSS, and modern web standards to showcase my work.</p>
+          <button data-url="https://github.com/dennisinfinity/portfolio">View Code</button>
+        </article>
+        <article class="card project-card">
+          <h5>Login Page Design</h5>
+          <img src="assets/images/project-picture2.webp" alt="Login page design project screenshot" loading="lazy">
+          <p>Modern login interface demonstrating form design, validation, and responsive layout techniques.</p>
+          <button data-url="https://github.com/dennisinfinity/login-pages">View Code</button>
+        </article>
+      </div>
+      <div style="text-align: center; margin-top: var(--spacing-2xl);">
+        <a href="pages/projects.html" class="btn">See All Projects →</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer role="contentinfo">
+    &copy; 2025 Mwangi <span>Dev</span> - Portfolio
+  </footer>
+
+  <!-- JAVASCRIPT MODULES -->
+  <script src="assets/js/modules/navigation.js"></script>
+  <script src="assets/js/modules/projects.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

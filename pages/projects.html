@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projects - View Dennis Mwangi's portfolio projects built with HTML, CSS, JavaScript, and React">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <title>Projects - Dennis Mwangi Portfolio</title>
+  
+  <!-- Main CSS (includes all modules) -->
+  <link rel="stylesheet" href="../assets/styles/main.css">
+</head>
+
+<body>
+  <!-- HEADER / NAVIGATION -->
+  <header role="banner">
+    <div class="left-header">
+      <p class="logo">Mwangi <span>Dev</span></p>
+    </div>
+    <div class="right-header">
+      <nav role="navigation" aria-label="Main Navigation">
+        <input type="checkbox" id="menu-toggle" aria-label="Toggle navigation menu">
+        <label for="menu-toggle" class="hamburger" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul class="nav-list">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main role="main">
+    <section aria-labelledby="projects-title">
+      <h3 id="projects-title">Projects</h3>
+      <p>
+        Here are some of the projects I've built. Click "View Code" to check the source on GitHub!
+      </p>
+      
+      <div class="grid-3-col">
+        <article class="card project-card">
+          <h5>Personal Portfolio</h5>
+          <img src="../assets/images/project-picture1.webp" alt="Personal portfolio project screenshot" loading="lazy">
+          <p>A fully responsive portfolio website built with HTML, CSS, and JavaScript to showcase my skills and projects.</p>
+          <button data-url="https://github.com/dennisinfinity/portfolio">View Code</button>
+        </article>
+        
+        <article class="card project-card">
+          <h5>Login Pages</h5>
+          <img src="../assets/images/project-picture2.webp" alt="Login pages project screenshot" loading="lazy">
+          <p>Multiple styled login page designs demonstrating form validation and responsive layout techniques.</p>
+          <button data-url="https://github.com/dennisinfinity/login-pages">View Code</button>
+        </article>
+        
+        <article class="card project-card">
+          <h5>Responsive Layouts</h5>
+          <img src="../assets/images/project-picture3.webp" alt="Responsive layouts project screenshot" loading="lazy">
+          <p>Various responsive layouts using Flexbox and CSS Grid to create flexible and mobile-friendly designs.</p>
+          <button data-url="https://github.com/dennisinfinity/responsive-layouts">View Code</button>
+        </article>
+        
+        <article class="card project-card">
+          <h5>Landing Page</h5>
+          <img src="../assets/images/project-picture4.webp" alt="Landing page project screenshot" loading="lazy">
+          <p>A clean and modern landing page designed to showcase a product, including responsive design and call-to-action sections.</p>
+          <button data-url="https://github.com/dennisinfinity/landing-page">View Code</button>
+        </article>
+        
+        <article class="card project-card">
+          <h5>Hamburger Menu</h5>
+          <img src="../assets/images/project-picture5.webp" alt="Hamburger menu project screenshot" loading="lazy">
+          <p>An interactive mobile-friendly navigation menu built with HTML, CSS, and JavaScript.</p>
+          <button data-url="https://github.com/dennisinfinity/hamburger-menu">View Code</button>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer role="contentinfo">
+    &copy; 2025 Mwangi <span>Dev</span> - Portfolio
+  </footer>
+
+  <!-- JAVASCRIPT MODULES -->
+  <script src="../assets/js/modules/navigation.js"></script>
+  <script src="../assets/js/modules/projects.js"></script>
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

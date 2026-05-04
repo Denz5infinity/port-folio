@@ -1,0 +1,41 @@
+/* ========== FOOTER ========== */
+
+footer {
+  width: 100%;
+  padding: var(--spacing-2xl) var(--spacing-xl);
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.95));
+  border-top: 1px solid rgba(6, 182, 212, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-light);
+  font-weight: var(--font-weight-medium);
+  text-align: center;
+  margin-top: auto;
+  backdrop-filter: blur(10px);
+  transition: all var(--transition-normal);
+}
+
+footer:hover {
+  border-top-color: rgba(6, 182, 212, 0.2);
+}
+
+footer span {
+  background: linear-gradient(135deg, var(--color-accent-secondary), var(--color-accent-tertiary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: var(--font-weight-bold);
+  margin: 0 var(--spacing-xs);
+}
+
+footer a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  transition: color var(--transition-normal);
+}
+
+footer a:hover {
+  color: var(--color-accent-secondary);
+  text-decoration: none;
+}
